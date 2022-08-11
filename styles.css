@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 2.6rem;
+  font-weight: 700;
+  width: 300px;
+}
+
+h6 {
+  color: hsl(300, 24%, 96%);
+  font-weight: bold;
+  margin: 0;
+}
+
+strong {
+  color: hsl(300, 43%, 22%);
+}
+
+
+
+/* boxes */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 5% 7%; */
+  margin-top: 5%;
+}
+
+.big-box-container {
+  margin-top: 1rem;
+}
+
+.first-big-box {
+  background-color:  hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 30px;
+  border-radius: 6px;
+  width: 300px;
+  height: 250px;
+}
+
+.second-big-box {
+  background-color:  hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 30px;
+  border-radius: 6px;
+  width: 300px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.third-big-box {
+  background-color:  hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  padding: 30px;
+  border-radius: 6px;
+  width: 300px;
+  height: 250px;
+  margin-top: 40px;
+}
+
+.rate-section {
+  padding: 0 0 0 5rem;
+}
+
+
+.first-small-box {
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px 0 20px 0;
+  padding: 8px 8px 8px 40px;
+  border-radius: 6px;
+  width: 23.75rem;
+}
+
+.second-small-box {
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px 0 20px 40px;
+  padding: 8px 8px 8px 30px;
+  border-radius: 6px;
+  width: 24.4rem;
+}
+
+.third-small-box {
+  background-color: hsl(300, 24%, 96%);
+  margin: 10px 0 20px 80px;
+  padding: 8px 8px 8px 40px;
+  border-radius: 6px;
+  width: 23.75rem;
+}
+
+
+/* big box heading */
+
+.big-box-heading {
+  padding: 0;
+  margin: 0;
+}
+
+/* images */
+.buyer-image {
+  width: 40px;
+  border-radius: 100%;
+}
+
+/* text */
+.buyer-text {
+  color: hsl(333, 80%, 67%);
+  margin: 0;
+  padding: 0;
+}
+
+
+.buyer-remarks {
+  padding-top: 20px;
+}
+
+
+/* images inside the small boxes */
+
+.first-small-box img {
+  margin: 2px;
+}
+
+.second-small-box img {
+  margin: 2px;
+}
+
+.third-small-box img {
+  margin: 2px;
+}
+
+/* about us text */
+.about-us {
+  /* width: 400px; */
+}
+
+/* strong text inside the small boxes */
+
+.first-small-box strong {
+  margin-left: 1rem;
+}
+
+.second-small-box strong {
+  margin-left: 1rem;
+}
+
+.third-small-box strong {
+  margin-left: 1rem;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+@media (max-width: 992px){
+
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    margin: auto;
+    width: 90%;
+  }
+
+  p {
+    margin: auto;
+  }
+
+  .about-us {
+    font-size: 1.2rem;
+    margin: 20px;
+  }
+
+  .first-big-box, .second-big-box, .third-big-box {
+    width: 80%;
+    margin: auto;
+    margin: 20px;
+  }
+
+  .box-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .first-small-box, .second-small-box, .third-small-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+  }
+
+  .big-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .rate-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+
+}
